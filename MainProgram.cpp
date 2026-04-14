@@ -1,6 +1,4 @@
-
-
- // ============================================================
+// ============================================================
 // Lab W7: C++ OOP Review - Classes, Encapsulation, Strings,
 //         Copy Constructors, Operator Overloading
 // Course: Object-Oriented Programming
@@ -119,7 +117,7 @@ public:
     // If out of range, keep current GPA.
     void setGpa(double g) {
         
-        if(0.0<=gpa && 4.0>gpa){
+        if(0.0<=g && 4.0>=g){
             gpa=g;
         }
         // YOUR CODE HER
